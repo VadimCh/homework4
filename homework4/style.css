@@ -1,0 +1,188 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #0e80a6 url('images/line.jpg') 0 30px repeat-x;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 300;
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+    position: relative;
+    z-index: 2;
+}
+.header .logo{
+    float: left;
+}
+.header .right {
+    float: right;
+}
+.header .clear {
+    clear: both;
+}
+.header .contacts {
+    float: right;
+    color: #128aa7;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.header .countries {
+    font-size: 10px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.header .countries ul {
+    list-style: none;
+}
+.header .countries ul li {
+    display: inline-block;
+    text-align: center;
+}
+.header .countries ul li a {
+    display: block;
+    color: #128aa7;
+}
+.header .countries ul li a:first-child {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+.countries .india-link {
+    background: url('images/india.png') 0 0 no-repeat;
+}
+
+.countries .nepal-link {
+    background: url('images/nepal.png') 0 0 no-repeat;
+}
+
+.countries .tibet-link {
+    background: url('images/tibet.png') 0 0 no-repeat;
+}
+
+.countries .butan-link {
+    background: url('images/butan.png') 0 0 no-repeat;
+}
+
+.countries .shri-link {
+    background: url('images/shri.png') 0 0 no-repeat;
+}
+
+.countries .maldivas-link {
+    background: url('images/maldivas.png') 0 0 no-repeat;
+}
+
+.slider {
+    height: 238px;
+}
+
+.menu {
+    background-color: #333;
+    box-shadow: 0px 0px 7px 0px #333;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: table;
+}
+.menu li {
+    display: table-cell;
+    text-align: center;
+    width: 10%;
+}
+.menu li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 7px 0;
+}
+.menu li:hover,
+.menu .dropdown-content a:hover {
+    background-color: #222;
+}
+.menu .dropdown {
+    position: relative;
+}
+.menu .dropdown a span {
+    padding: 1px 20px;
+    background: url('images/navdown_white.gif') right bottom no-repeat;
+}
+.menu .dropdown-content {
+    display: none;
+    background-color: #333;
+    position: absolute;
+    width: 100%;
+    box-shadow: 0px 1px 7px 0px #333;
+    border-top: 1px solid #111;
+}
+
+.menu .dropdown-content a {
+    padding: 7px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.menu .dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 1px 7px 0px #333;
+}
+
+.content {
+    font-size: 14px;
+    position: relative;
+    z-index: 1;
+}
+.content .table {
+    display: table;
+    width: 100%;
+}
+.content .table-row {
+    display: table-row;
+}
+.content .table-cell {
+    display: table-cell;
+    padding: 10px;
+}
+.content .column-1,
+.content .column-3 {
+    width: 21%;
+    background: #edeef0;
+}
+.content .column-2 {
+    width: 58%;
+}
+.content .column-1 h3,
+.content .column-3 h3 {
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    font-size: 10px;
+    position: relative;
+    z-index: 0;
+}
+.footer .text-center {
+    text-align: center;
+}
+
+
+
+
+
+

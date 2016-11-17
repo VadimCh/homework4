@@ -1,0 +1,105 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #0e80a6 url('images/line.jpg') 0 30px repeat-x;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px; 
+    font-style: normal; 
+    font-variant: normal;
+    font-weight: 300;
+}
+
+
+.wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.header {
+}
+.header .logo{
+    float: left;
+}
+.header .right {
+    float: right;
+}
+.header .clear {
+    clear: both;
+}
+.header .contacts {
+    float: right;
+    color: #128aa7;
+    line-height: 1.5;
+    padding-top: 10px;
+    padding-right: 15px;
+}
+.header .countries {
+    font-size: 10px;
+    margin-top: 30px;
+    margin-right: 15px;
+}
+.header .countries ul {
+    list-style: none;
+}
+.header .countries ul li {
+    display: inline-block;
+    text-align: center;
+}
+.header .countries ul li a {
+    display: block;
+    color: #128aa7;
+}
+.header .countries ul li a:first-child {
+    width: 42px;
+    height: 42px;
+    border-radius: 21px;
+}
+.countries .india-link {
+    background: url('images/india.png') 0 0 no-repeat;
+}
+
+.container {
+    background-color: #fff;
+    box-shadow: 0px 1px 7px #333;
+}
+
+.content {
+    font-size: 14px;
+}
+.content .table {
+    display: table;
+    width: 100%;
+}
+.content .table-row {
+    display: table-row;
+}
+.content .table-cell {
+    display: table-cell;
+    padding: 10px;
+}
+.content .column-1,
+.content .column-3 {
+    width: 21%;
+    background: #edeef0;
+}
+.content .column-2 {
+    width: 58%;
+}
+.content .column-1 h3,
+.content .column-3 h3 {
+    text-align: center;
+}
+
+.footer {
+    color: #fff;
+    font-size: 10px;
+}
+.footer .text-center {
+    text-align: center;
+}
+
+
+
+
+
+
